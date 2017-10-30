@@ -1,0 +1,32 @@
+#bg img{
+	width: 100%;
+	
+	margin:0;
+	padding:0;
+
+}
+
+#info{
+	margin-top: 50px;
+	padding: 0px 200px 0px 200px;
+	text-align:center;
+	font-family:KoblenzBook;
+	font-size:16pt;
+	
+}
+
+#block{
+	color:white;
+	margin-top: -1000px;
+	padding: 0px 200px 0px 200px;
+	text-align:center;
+	font-family:KoblenzBook;
+	font-size:28pt;
+	
+	 
+}
+
+i
+{
+	font-size:36pt;
+}

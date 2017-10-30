@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family:"KoblenzBook";
+    src: url("Koblenz-Book.ttf") /* TTF file for CSS3 browsers */
+}
+#IMGSDA{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
+#logo{
+
+float:center;
+
+}
+
+body{
+background:url(welcome.jpg);
+	margin:0;
+	padding:0;
+
+}
+#as{
+z-index: 2;	
+position: absolute; 
+left: 35%; 	
+}
+#bg {
+	
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+#title{
+	text-align:center;
+	font-family:KoblenzBook;
+	font-size:48pt;
+	color:#ec008b;
+}
+#subhead{
+	text-align:center;
+	font-family:KoblenzBook;
+	font-size:12pt;
+	color:#27a9e1;
+	font-weight:bold;
+}
+
+#fsaadf{
+	margin:15%;
+	margin-top:37%;
+	float :right;
+	z-index:50;
+	display: inline-block;
+    font-family:KoblenzBook;
+  color: #000;
+  text-transform: uppercase;
+   border-style: solid;
+    border-color: #000 #000;
+	border-width:2px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  
+ /* box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+ -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;*/
+  
+}
+
+#fsaadf:hover{ 
+border-style: transparent;
+   color: #fff;
+   background:#000000;
+   -webkit-transform: translate(0px, -2px) scale(1.05);
+          transform: translate(0px, -2px) scale(1.05);
+
+}
+
+
+a{
+	text-decoration: none;
+}
